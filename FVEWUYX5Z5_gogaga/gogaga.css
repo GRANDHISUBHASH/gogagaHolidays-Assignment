@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+
+
+.imagCard img {
+    height: 80px;
+}
+
+Home {
+    height: 100px;
+    width: 100vw;
+
+
+
+}
+
+.MenuItems {
+    display: flex;
+    justify-content: space-evenly;
+
+
+    padding: 10px;
+}
+
+main {
+    padding-top: 90px;
+}
+
+li a,
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    list-style: none;
+    font-size: 90%;
+}
+
+.ListIcones {
+    height: 20px;
+    background-color: transparent;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+li:hover {
+
+    border-bottom: solid 2px black;
+}
+
+.holidayPackagesCard {
+    width: 350px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    overflow: hidden;
+}
+
+.carousel-container {
+    height: 500px;
+    width: 80vw;
+    border-radius: 40px;
+
+}
+
+.HomeCard {
+    height: 300px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#holidayPackages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+}
+
+.holidaysPackageContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+#PackageBooking {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    position: relative;
+
+}
+
+.PackagesContainer {
+    display: flex;
+    flex-wrap: wrap;
+
+
+
+
+
+}
+
+.PackageCard {
+    width: 350px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    overflow: hidden;
+
+
+
+
+}
+
+@media screen and (max-width: 575.98px) {
+    .PackageCard {
+        width: 100%;
+        border-radius: 20px;
+        margin: 50px;
+    }
+
+    .holidayPackagesCard {
+        width: 100%;
+        border-radius: 20px;
+        margin: 50px;
+    }
+
+    main {
+        margin-top: 20px;
+    }
+
+    .carousel-container {
+        height: 250px;
+        background-size: cover;
+    }
+
+    .carousel-container div img {
+
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .imageCard {
+        display: none;
+    }
+
+    select#Departure,
+    #Destination,
+    #flightName,
+    #departureTime,
+    #datevalue,
+    #Location,
+        {
+        width: 100vw;
+    }
+}
+
+.packageBookingContainer {
+    display: flex;
+
+    flex-wrap: wrap;
+}
+
+
+#HotelBooking,
+#FlightBooking {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+
+
+}
+
+
+.InputCard {
+    width: 50vw;
+
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    transition: box-shadow 0.3s ease-in-out;
+    background-color: transparent;
+    border: solid 0.5px black;
+}
+
+
+.InputCard select,
+input {
+    width: 100%;
+    border: solid 2px black;
+    border-radius: 5px;
+    height: 50px;
+    font-family: Roboto;
+    font-style: italic;
+}
+
+.InputCard label {
+    font-family: Roboto;
+    font-style: italic;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+.InputCard button {
+    margin: 20px;
+}
